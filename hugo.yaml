@@ -1,0 +1,67 @@
+baseURL: https://hangg7.github.io/blog/
+languageCode: en-us
+theme: papermod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+minify:
+  disableXML: true
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: home
+          url: /
+          weight: 1
+        - name: time
+          url: time/
+          weight: 2
+        - name: search
+          url: search/
+          weight: 3
+        # - name: tags
+        #   url: tags/
+        #   weight: 4
+        - name: rss
+          url: index.xml
+          weight: 6
+        - name: about
+          url: https://hangg7.github.io/
+          weight: 50
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  env: production
+  author: Hang
+  defaultTheme: light
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  TocOpen: true
+  showFullTextinRSS: true
+  comments: false
+  homeInfoParams:
+    title: "hang's blog"
+    Content: >
+      {{< figure src="bas-jan-ader-fall-2.jpg" caption="Bas Jan Ader, Fall 2, 1970, Amsterdam" >}}
