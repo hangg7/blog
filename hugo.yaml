@@ -1,4 +1,3 @@
-baseURL: https://hangg7.github.io/blog/
 languageCode: en-us
 theme: papermod
 enableInlineShortcodes: true
@@ -12,12 +11,6 @@ minify:
   disableXML: true
 languages:
   en:
-    languageName: "English"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
     menu:
       main:
         - name: home
@@ -65,3 +58,7 @@ params:
     title: "hang's blog"
     Content: >
       {{< figure src="bas-jan-ader-fall-2.jpg" caption="Bas Jan Ader, Fall 2, 1970, Amsterdam" >}}
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
