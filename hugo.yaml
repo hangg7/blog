@@ -16,12 +16,12 @@ languages:
         - name: home
           url: /
           weight: 1
-        - name: time
-          url: time/
-          weight: 2
-        - name: search
-          url: search/
-          weight: 3
+        # - name: time
+        #   url: time/
+        #   weight: 2
+        # - name: search
+        #   url: search/
+        #   weight: 3
         # - name: tags
         #   url: tags/
         #   weight: 4
