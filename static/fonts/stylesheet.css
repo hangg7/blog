@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "TsangerJinKai";
+  src: url("TsangerJinKai-W04.woff2");
+  unicode-range: U+4E00-9FFF, U+3000-303F, U+FF00-FFEF;
+  font-display: swap;
+}
+
+:lang(zh) {
+  text-spacing: auto;
+  hanging-punctuation: allow-end;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: TsangerJinKai, "Shippori Mincho", Helvetica, sans-serif;
+}
+
+strong {
+  font-family: TsangerJinKai, "Shippori Mincho", Helvetica, sans-serif;
+}
+
+heading {
+  font-family: TsangerJinKai, "Shippori Mincho", Helvetica, sans-serif;
+  font-weight: 600;
+}

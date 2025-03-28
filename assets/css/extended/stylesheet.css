@@ -1,37 +1,19 @@
 a {
-  color: #9c021d;
+  color: #2c5fb6;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #c97f46;
+  color: #ffd500;
   text-decoration: none;
 }
 
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-strong {
-  font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-heading {
-  font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
-  font-size: 22px;
-  font-weight: 600;
-}
-
-figure {
+img {
+  display: block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figure figcaption {

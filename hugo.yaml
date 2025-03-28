@@ -16,21 +16,15 @@ languages:
         - name: home
           url: /
           weight: 1
-        # - name: time
-        #   url: time/
-        #   weight: 2
-        # - name: search
-        #   url: search/
-        #   weight: 3
-        # - name: tags
-        #   url: tags/
-        #   weight: 4
+        - name: tags
+          url: tags/
+          weight: 2
         - name: rss
           url: index.xml
-          weight: 6
+          weight: 3
         - name: about
           url: https://hangg7.github.io/
-          weight: 50
+          weight: 100
 outputs:
   home:
     - HTML
@@ -57,8 +51,22 @@ params:
   homeInfoParams:
     title: "hang's blog"
     Content: >
-      {{< figure src="bas-jan-ader-fall-2.jpg" caption="Bas Jan Ader, Fall 2, 1970, Amsterdam" >}}
+      {{< figure src="ader-fall-2.jpg" caption="Bas Jan Ader, Fall 2, 1970, Amsterdam" >}}
+      <br>
+      人通过意义来保护他的生活，这里记录着我的一些尝试。
 markup:
   goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
     renderer:
       unsafe: true
