@@ -16,9 +16,9 @@ languages:
         - name: home
           url: /
           weight: 1
-        - name: tags
-          url: tags/
-          weight: 2
+        # - name: tags
+        #   url: tags/
+        #   weight: 2
         - name: rss
           url: index.xml
           weight: 3
