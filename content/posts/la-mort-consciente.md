@@ -21,6 +21,10 @@ draft = false
 > Why, man, he doth bestride the narrow world <br>
 > Like a Colossus, and we petty men <br>
 > Walk under his huge legs and peep about <br>
-> To find ourselves dishonorable graves. <br>
+> To find ourselves dishonorable graves.
 
-\\(\blacksquare\\)
+$$
+\begin{flalign*}
+& & \blacksquare
+\end{flalign*}
+$$

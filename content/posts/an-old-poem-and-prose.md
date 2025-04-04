@@ -33,4 +33,8 @@ draft = false
 
 2023年4月20日
 
-\\(\blacksquare\\)
+$$
+\begin{flalign*}
+& & \blacksquare
+\end{flalign*}
+$$
