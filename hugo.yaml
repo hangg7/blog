@@ -49,7 +49,7 @@ params:
   showFullTextinRSS: true
   comments: false
   homeInfoParams:
-    title: "hang's blog"
+    title: "Hang's blog"
     Content: >
       {{< figure src="ader-fall-2.jpg" caption="Bas Jan Ader, Fall 2, 1970, Amsterdam" >}}
       <br>
