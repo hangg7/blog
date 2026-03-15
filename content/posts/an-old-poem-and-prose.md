@@ -1,7 +1,7 @@
 +++
 title = '旧诗文各一'
 date = 2025-04-03T22:59:33-07:00
-tags = ['meditation', 'dream']
+tags = ['meditation', 'dream', 'poem']
 draft = false
 +++
 
