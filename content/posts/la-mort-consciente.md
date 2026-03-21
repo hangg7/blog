@@ -1,7 +1,7 @@
 +++
 title = 'La mort consciente'
 date = 2025-03-28T11:10:11-07:00
-tags = ['meditation']
+tags = ['fiction']
 draft = false
 +++
 
@@ -24,9 +24,3 @@ draft = false
 > Like a Colossus, and we petty men <br>
 > Walk under his huge legs and peep about <br>
 > To find ourselves dishonorable graves.
-
-$$
-\begin{flalign*}
-& & \blacksquare
-\end{flalign*}
-$$

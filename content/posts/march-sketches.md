@@ -27,9 +27,3 @@ draft = false
 他决定再睡一觉
 
 2026年3月14日
-
-$$
-\begin{flalign*}
-& & \blacksquare
-\end{flalign*}
-$$
