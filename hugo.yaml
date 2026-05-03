@@ -48,12 +48,6 @@ params:
   TocOpen: false
   showFullTextinRSS: true
   comments: false
-  homeInfoParams:
-    title: "Hang's blog"
-    Content: >
-      {{< figure src="ader-fall-2.jpg" caption="Bas Jan Ader, Fall 2, 1970, Amsterdam" >}}
-      <br>
-      人通过意义来保护他的生活，这里记录着我的一些尝试。
 markup:
   goldmark:
     extensions:
